@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:#f4f4f4;
+}
+
+header{
+    text-align:center;
+    background:#0077ff;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+#searchInput{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:16px;
+}
+
+.job-card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.job-card a{
+    display:inline-block;
+    background:green;
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:5px;
+}
+
+.job-card a:hover{
+    opacity:0.9;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Latest Job Updates</title>
+
+<!-- Google AdSense Auto Ads -->
+<script async
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2733221415447829"
+crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>EDUCATE TN</h1>
+    <p>Government & Private Jobs</p>
+</header>
+
+
+
+<div id="jobs">
+
+    <div class="job-card">
+        <h2>DSSC Recruitment 2026</h2>
+        <p>Qualification: 12th Pass</p>
+        <p>Location: Nilgiris-Tamil Nadu</p>
+        <a href="jobs/Recruitment.pdf" target="_blank">
+            Download Notification
+        </a>
+    </div>
+
+    
+
+</div>
+
+<script>
+function searchJobs() {
+    let input = document.getElementById("searchInput");
+    let filter = input.value.toUpperCase();
+    let cards = document.getElementsByClassName("job-card");
+
+    for (let i = 0; i < cards.length; i++) {
+        let text = cards[i].innerText;
+
+        if (text.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
